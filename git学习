@@ -1,0 +1,11 @@
+git 学习
+	1. https://git-scm.com/downloads  下载安装git
+	2.  git config --global user.name "Your Name"   xilly  xillyxie@qq.com
+        git config --global user.email "email@example.com"  配置git   --global 代表所有仓库都是这个配置
+	3. 新建版本库  git init
+	4. 
+		1) 生成秘钥  ssh-keygen -t rsa -b 4096 -C "xillyxie@qq.com"
+		2) 将 SSH 密钥添加到 ssh-agent， 在后台启动 ssh-agent  命令：eval $(ssh-agent -s)
+		3) 如果您创建了不同名称的密钥，或者您要添加不同名称的现有密钥，请将命令中的 id_rsa 替换为您的私钥文件的名称。命令:ssh-add ~/.ssh/id_rsa
+		4) 
+	5. 拉取项目  git clone git项目地址  
